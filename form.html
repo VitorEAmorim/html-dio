@@ -8,9 +8,22 @@
     </head>
     <body>
         <form name="signup" onsubmit="alert('Dados enviados')" method="post" action="#">
-            Nome: <input type="text" name="name" /><br>
-            Idade: <input type="number" name="age" /><br>
-            Senha: <input type="password" name="pass" /><br>
+            <label>Nome:</label> <input type="text" name="name" /><br>
+            <label>Número:</label> <input type="number" name="age" min="0" max="99" step="2"/><br>
+            <label>Senha:</label> <input type="password" name="pass" /><br>
+            <label>Limpar:</label> <input type="reset" name="resetar" /><br>
+            <label>Paciência:</label> <input type="range" name="emotion" value="50" /><br>
+            <label>Cor:</label> <input type="color" name="color"/><br>
+            <label>Email:</label><input type="email" name="email"/><br>
+            <label>URL:</label> <input type="url" name="link" /><br>
+            <label>Data:</label> <input type="date" name="data" /><br>
+            <label>Semana:</label> <input type="week" name="semana" /><br>
+            <label>Checkbox:</label> <input type="checkbox" name="aceite" /><br>
+            <label>Mês:</label> <input type="month" name="mes" /><br>
+            <label>Radio:</label> <input type="radio" name="radio" /><br>
+            <label>Hidden:</label> <input type="hidden" name="hidden" /><br>
+            <label>File:</label> <input type="file" name="file" /><br>
+
             <button type="submit">Enviar</button>
         </form>
     </body>
