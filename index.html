@@ -3,41 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos/estilo.css" rel="stylesheet" />
+
         <title>Tabela - Dio.me </title><title>Inicial</title>
 </head>
 <body>
-    <header>
-        <div><img src="Logo.png" width="75"/></div>
-        <span><h1>Clínica de Reabilitação</h1></span>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="Logo.jpg" width="100">
+        </div>
+        <div class="profile">
+            <img src="icons/user.svg" width="100">
+        </div>
     </header>
-    <nav name="lateral-bar">
-        <a href="">Cadastro</a>
-        <a href="">Horários</a>
-        <a href="">Quem somos</a>
-        <a href="">Contato</a>
-    </nav>
-    <h1>Bem Vindo</h1>
-    <h3>Fique a vontade e faça seu cadastro!</h3>
-    <div name="cadastro">
-        <form action="">
-            <label>Nome completo </label><input type="text" maxlength="32" >
-            <label>Email </label><input type="email">
-            <label>CPF </label><input type="number" maxlength="11" min="1">
-            <label>Idade </label><input type="number" maxlength="2" min="1" >
-            <label>Tipo:</label>
-                <select name="option">
-                    <option value="">Tratamento</option>
-                    <option value="opt-drogas">Drogas</option>
-                    <option value="opt-bebida">Bebidas</option>
-                    <option value="opt-jogos">Jogos</option>
-                </select>
-            <label>Conte sua história:</label><textarea name=" mensage" width= "50" maxlength="270"></textarea>
-        </form>
+    <div class="menu-side">
+        <ul>
+            <li><a href="Pages/form.html">Cadastro</a></li>
+            <li><a>Horários</a></li>
+            <li><a>Agenda</a></li>
+            <li><a>Sobre</a></li>
+            <li><a>Contato</a></li>
+        </ul>
+    </div>
+    <div class="content">
+            <span><h1>Cadastro</h1><span>
+            <fieldset>
+                <legend>Formulário</legend>
+                
+
+            </fieldset>
+    </div>
     <footer>
-        <a href="">Cadastro</a>
-        <a href="">Horários</a>
-        <a href="">Quem somos</a>
-        <a href="">Contato</a>
+
     </footer>
 </body>
 
