@@ -1,3 +1,9 @@
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+}
+
 body {
     width: 100%;
     margin: 0;
@@ -7,35 +13,43 @@ body {
 }
 
 .cabecalho {
+    width: 100%;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     background-color: #d69779;
 }
 
-.menu-side, ul, li {
-    padding: 10px 0px;
-    font-size: 32px;
+.menu-side{
+    padding: 5px 10px;
     margin-top: 15px;
     list-style: none;
     text-decoration: none;
     background-color: #d69779;
-    width: 200px;
+    width: 20%;
 }
 
 li:hover {
     color:#6d4237;
     background-color: #c46e64;
-    display: block;
+    width: 100%;
+    padding: 10px;
 }
 
 .menu-side, ul{
-    width: 15%;
+    list-style: none;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+li {
+    margin-top: 20px;
 }
 
 .menu-side{
     float: left;
     display: flex;
+    border-radius: 0 30px 30px 0;
 }
 .content{
     width: 75%;
@@ -50,4 +64,14 @@ li:hover {
 p, h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 26px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d69779;
+    color: white;
+    text-align: center
 }
