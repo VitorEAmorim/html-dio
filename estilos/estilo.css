@@ -75,3 +75,16 @@ footer {
     color: white;
     text-align: center
 }
+
+.content table, th, td {
+    border: 1px solid #6d4237;
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: left;
+}
+
+table th{
+    background-color: black;
+    color: aliceblue;
+    text-align: left;
+}
