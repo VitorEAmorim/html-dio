@@ -88,3 +88,17 @@ table th{
     color: aliceblue;
     text-align: left;
 }
+
+input, span{
+    padding: 5px 10px;
+    display: block;
+    flex-wrap: wrap;
+}
+
+fom
+
+button{
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
